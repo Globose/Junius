@@ -1,0 +1,109 @@
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Duck Visual.exe
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Duck Visual.pdb
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.dll
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.xml
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.csprojAssemblyReference.cache
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.csproj.CoreCompileInputs.cache
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.csproj.CopyComplete
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.exe
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.pdb
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\chessboard.xnb
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\pieces.xnb
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.csprojAssemblyReference.cache
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.csproj.CoreCompileInputs.cache
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.exe
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.pdb
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\Content\chessboard.xnb
+C:\Onedrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\Content\pieces.xnb
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\chessboard.xnb
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\pieces.xnb
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Duck Visual.exe
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Duck Visual.pdb
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\Tobias\OneDrive\Dokument\Projekt\Aktuella\Duck\Duck Visual\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.csproj.CopyComplete
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\chessboard.xnb
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\pieces.xnb
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Duck Visual.exe.config
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Duck Visual.exe
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Duck Visual.pdb
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.csproj.AssemblyReference.cache
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.csproj.CoreCompileInputs.cache
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.csproj.CopyComplete
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.exe
+C:\Users\Tobias\Downloads\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.pdb
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Duck Visual.exe.config
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Duck Visual.exe
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Duck Visual.pdb
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.dll
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.xml
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.csproj.AssemblyReference.cache
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.csproj.SuggestedBindingRedirects.cache
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.csproj.CoreCompileInputs.cache
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.csproj.CopyComplete
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.exe
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.pdb
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\card_fronts.xnb
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\card_hearts.xnb
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\card_back.xnb

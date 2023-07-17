@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/card_back.png","C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/bin/Windows/card_back.xnb","TextureProcessor","Texture2DContent",19912,504085,0,3486884
+"C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/card_hearts.png","C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/bin/Windows/card_hearts.xnb","TextureProcessor","Texture2DContent",405591,7560085,0,4565385

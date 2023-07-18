@@ -105,5 +105,11 @@ C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.csp
 C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.exe
 C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\obj\x86\Debug\Duck Visual.pdb
 C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\card_fronts.xnb
-C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\card_hearts.xnb
 C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\card_back.xnb
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\btn.xnb
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\font.xnb
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\cards_clubs.xnb
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\cards_diamonds.xnb
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\cards_hearts.xnb
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\cards_spades.xnb
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\head.xnb

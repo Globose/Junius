@@ -45,6 +45,7 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Button.cs" />
     <Compile Include="Card.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Program.cs" />

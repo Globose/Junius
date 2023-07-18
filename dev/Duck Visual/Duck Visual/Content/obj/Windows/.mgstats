@@ -1,3 +1,9 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/card_back.png","C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/bin/Windows/card_back.xnb","TextureProcessor","Texture2DContent",19912,504085,0,3486884
-"C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/card_hearts.png","C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/bin/Windows/card_hearts.xnb","TextureProcessor","Texture2DContent",405591,7560085,0,4565385
+"C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/btn.png","C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/bin/Windows/btn.xnb","TextureProcessor","Texture2DContent",2926,317485,1,898238
+"C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/card_back.png","C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/bin/Windows/card_back.xnb","TextureProcessor","Texture2DContent",19912,504085,0,023668
+"C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/cards_clubs.png","C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/bin/Windows/cards_clubs.xnb","TextureProcessor","Texture2DContent",403796,7560085,0,4214285
+"C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/cards_diamonds.png","C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/bin/Windows/cards_diamonds.xnb","TextureProcessor","Texture2DContent",369727,7560085,0,4213324
+"C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/cards_hearts.png","C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/bin/Windows/cards_hearts.xnb","TextureProcessor","Texture2DContent",405591,7560085,0,488753
+"C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/cards_spades.png","C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/bin/Windows/cards_spades.xnb","TextureProcessor","Texture2DContent",371306,7560085,0,5219362
+"C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/font.spritefont","C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/bin/Windows/font.xnb","FontDescriptionProcessor","SpriteFontContent",2008,70673,0,6959787
+"C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/head.png","C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/bin/Windows/head.xnb","TextureProcessor","Texture2DContent",24375,1183445,0,0634805

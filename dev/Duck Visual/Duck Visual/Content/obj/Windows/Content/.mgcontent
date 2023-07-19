@@ -6,6 +6,7 @@
   <SourceFiles>
     <File>C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/btn.png</File>
     <File>C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/card_back.png</File>
+    <File>C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/card_jokers.png</File>
     <File>C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/cards_clubs.png</File>
     <File>C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/cards_diamonds.png</File>
     <File>C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/cards_hearts.png</File>
@@ -14,6 +15,7 @@
     <File>C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/head.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

@@ -8,8 +8,8 @@
    version="1.1"
    id="svg5"
    inkscape:export-filename="head.png"
-   inkscape:export-xdpi="109.22"
-   inkscape:export-ydpi="109.22"
+   inkscape:export-xdpi="109.83784"
+   inkscape:export-ydpi="109.83784"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    sodipodi:docname="drawing.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,9 +27,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.71624579"
-     inkscape:cx="655.50123"
-     inkscape:cy="274.34716"
+     inkscape:zoom="0.50646226"
+     inkscape:cx="1163.9564"
+     inkscape:cy="310.98072"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
@@ -43,15 +43,14 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#2568bb;fill-opacity:1;stroke-width:0.340386"
+       style="fill:#2568bb;fill-opacity:1;stroke-width:0.358619"
        id="rect234"
-       width="400"
+       width="444"
        height="40"
        x="0"
-       y="0"
-       rx="5.3333335" />
+       y="0" />
     <rect
-       style="fill:#a0dac1;fill-opacity:1;stroke-width:0.345739"
+       style="fill:#7bbdff;fill-opacity:1;stroke-width:0.345739"
        id="rect1936-8"
        width="40"
        height="18"
@@ -59,7 +58,7 @@
        y="18"
        rx="4.9282436" />
     <rect
-       style="fill:#a0dac1;fill-opacity:1;stroke-width:0.345739"
+       style="fill:#7bbdff;fill-opacity:1;stroke-width:0.345739"
        id="rect1936-2-32"
        width="40"
        height="18"
@@ -89,8 +88,27 @@
          x="330.96649"
          y="11.007332">Färgstege</tspan></text>
     <rect
-       style="fill:#a0dac1;fill-opacity:1;stroke-width:0.345739"
+       style="fill:#7bbdff;fill-opacity:1;stroke-width:0.345739"
        id="rect1936-2-3-4"
+       width="40"
+       height="18"
+       x="399.20074"
+       y="18"
+       rx="4.9282436" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;text-align:center;text-anchor:middle;fill:#76a7e4;stroke-width:0.264583"
+       x="418.96649"
+       y="11.007332"
+       id="text290-6-2-6"><tspan
+         sodipodi:role="line"
+         id="tspan288-1-7-1"
+         style="font-size:5.64444px;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         x="418.96649"
+         y="11.007332">Femtal</tspan></text>
+    <rect
+       style="fill:#7bbdff;fill-opacity:1;stroke-width:0.345739"
+       id="rect1936-2-3-4-2"
        width="40"
        height="18"
        x="355.20074"
@@ -100,15 +118,15 @@
        xml:space="preserve"
        style="font-size:5.64444px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;text-align:center;text-anchor:middle;fill:#76a7e4;stroke-width:0.264583"
        x="374.96649"
-       y="11.007332"
-       id="text290-6-2-6"><tspan
+       y="11.007333"
+       id="text290-6-2-6-4"><tspan
          sodipodi:role="line"
-         id="tspan288-1-7-1"
+         id="tspan288-1-7-1-7"
          style="font-size:5.64444px;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
          x="374.96649"
-         y="11.007332">Royal flush</tspan></text>
+         y="11.007333">Royal flush</tspan></text>
     <rect
-       style="fill:#a0dac1;fill-opacity:1;stroke-width:0.345739"
+       style="fill:#7bbdff;fill-opacity:1;stroke-width:0.345739"
        id="rect1936"
        width="40"
        height="18"
@@ -116,7 +134,7 @@
        y="18"
        rx="4.9282436" />
     <rect
-       style="fill:#a0dac1;fill-opacity:1;stroke-width:0.345739"
+       style="fill:#7bbdff;fill-opacity:1;stroke-width:0.345739"
        id="rect1936-2"
        width="40"
        height="18"
@@ -126,14 +144,19 @@
     <text
        xml:space="preserve"
        style="font-size:5.64444px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;text-align:center;text-anchor:middle;fill:#76a7e4;stroke-width:0.264583"
-       x="22.734528"
-       y="11.007332"
+       x="23.889757"
+       y="7.1226449"
        id="text290"><tspan
          sodipodi:role="line"
          id="tspan288"
          style="font-size:5.64444px;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
-         x="22.734528"
-         y="11.007332">Ett par</tspan></text>
+         x="23.889757"
+         y="7.1226449">Ett par</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.64444px;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         x="23.889757"
+         y="14.178196"
+         id="tspan2779">Kungar/ess</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:5.64444px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;text-align:center;text-anchor:middle;fill:#76a7e4;stroke-width:0.264583"
@@ -146,7 +169,7 @@
          x="67.765732"
          y="11.007332">Två par</tspan></text>
     <rect
-       style="fill:#a0dac1;fill-opacity:1;stroke-width:0.345739"
+       style="fill:#7bbdff;fill-opacity:1;stroke-width:0.345739"
        id="rect1936-2-3"
        width="40"
        height="18"
@@ -154,7 +177,7 @@
        y="18"
        rx="4.9282436" />
     <rect
-       style="fill:#a0dac1;fill-opacity:1;stroke-width:0.345739"
+       style="fill:#7bbdff;fill-opacity:1;stroke-width:0.345739"
        id="rect1936-1"
        width="40"
        height="18"
@@ -162,7 +185,7 @@
        y="18"
        rx="4.9282436" />
     <rect
-       style="fill:#a0dac1;fill-opacity:1;stroke-width:0.345739"
+       style="fill:#7bbdff;fill-opacity:1;stroke-width:0.345739"
        id="rect1936-2-9"
        width="40"
        height="18"
@@ -192,7 +215,7 @@
          x="198.96646"
          y="11.007332">Färg</tspan></text>
     <rect
-       style="fill:#a0dac1;fill-opacity:1;stroke-width:0.345739"
+       style="fill:#7bbdff;fill-opacity:1;stroke-width:0.345739"
        id="rect1936-2-3-6"
        width="40"
        height="18"

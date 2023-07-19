@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/cards_clubs.png</SourceFile>
-  <SourceTime>2023-07-18T14:22:44.7031715+03:00</SourceTime>
-  <DestFile>C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/bin/Windows/cards_clubs.xnb</DestFile>
-  <DestTime>2023-07-19T22:15:14.9648278+03:00</DestTime>
+  <SourceFile>C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/card_jokers.png</SourceFile>
+  <SourceTime>2023-07-19T21:12:41.2955781+03:00</SourceTime>
+  <DestFile>C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/bin/Windows/card_jokers.xnb</DestFile>
+  <DestTime>2023-07-19T22:15:14.5121957+03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T18:35:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

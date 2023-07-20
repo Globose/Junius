@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace Duck_Visual
 {
-    internal class Card
+    internal class Card : IComparable<Card>
     {
         public Vector2 Position { get; private set; }
         public Vector2 Target { get; private set; }
         public CardColor color { get; }
-        public int value { get; }
+        public int value { get; private set; }
         public bool selected { get; private set; }
         public bool visible { get; private set; }
         private Rectangle iRect;
@@ -64,6 +64,17 @@ namespace Duck_Visual
             Target = new Vector2(2000, 400);
         }
 
+        public int getDistance(Card other)
+        {
+            return value - other.value;
+        }
+
+        public void setAce()
+        {
+            if (value != 13) value = 13;
+            else value = 0;
+        }
+
         public void moveDown()
         {
             Target = new Vector2(Target.X, 1400);
@@ -94,6 +105,11 @@ namespace Duck_Visual
                 return true;
             }
             return false;
+        }
+
+        public int CompareTo(Card c)
+        {
+            return c.value - value;
         }
     }
 }

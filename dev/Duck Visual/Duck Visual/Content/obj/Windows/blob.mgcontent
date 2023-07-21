@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/btn.png</SourceFile>
-  <SourceTime>2023-07-18T14:25:44.5774139+03:00</SourceTime>
-  <DestFile>C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/bin/Windows/btn.xnb</DestFile>
-  <DestTime>2023-07-21T11:05:43.029618+03:00</DestTime>
+  <SourceFile>C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/blob.png</SourceFile>
+  <SourceTime>2023-07-21T11:05:20.7327873+03:00</SourceTime>
+  <DestFile>C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/bin/Windows/blob.xnb</DestFile>
+  <DestTime>2023-07-21T11:05:43.0026173+03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T18:35:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

@@ -114,3 +114,4 @@ C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content
 C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\cards_spades.xnb
 C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\head.xnb
 C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\card_jokers.xnb
+C:\data\projekt\Junius\dev\Duck Visual\Duck Visual\bin\Windows\x86\Debug\Content\blob.xnb

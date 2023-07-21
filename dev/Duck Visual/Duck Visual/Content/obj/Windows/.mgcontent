@@ -4,6 +4,7 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/blob.png</File>
     <File>C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/btn.png</File>
     <File>C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/card_back.png</File>
     <File>C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/card_jokers.png</File>
@@ -15,6 +16,7 @@
     <File>C:/data/projekt/Junius/dev/Duck Visual/Duck Visual/Content/head.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

@@ -12,21 +12,26 @@ namespace Duck_Visual
     {
         public string text { get; set; }
         public Vector2 Position { get; }
-        public Vector2 TextPosition { get; }
+        public Vector2 TextPosition { get; private set; }
         public bool pressed { get; set; }
         public bool clickable { get; }
         private Rectangle[] rectangles { get; }
         
         public Button(string text, Vector2 position, bool clickable, SpriteFont sf)
         {
-            Vector2 size = sf.MeasureString(text);
-            this.text = text;
-            TextPosition = new Vector2(position.X+115-size.X/2, position.Y+57-size.Y/2);
             Position = position;
+            setText(text, sf);
             pressed = false;
             this.clickable = clickable;
             rectangles = new Rectangle[] {new Rectangle(0,0,230,115), 
                 new Rectangle(230,0,230,115), new Rectangle(460,0,230,115)};
+        }
+
+        public void setText(string text, SpriteFont sf)
+        {
+            Vector2 size = sf.MeasureString(text);
+            TextPosition = new Vector2(Position.X + 115 - size.X / 2, Position.Y + 57 - size.Y / 2);
+            this.text = text;
         }
 
         public Rectangle getRect()

@@ -17,7 +17,7 @@ namespace Duck_Visual
         Hearts = 0, Spades = 1, Diamonds = 2, Clubs =3, Joker = 4
     }
 
-    public enum State {Start, Remove, FirstDeal, SecondDeal, Flip1, Flip2, Reveal, Select, PostGame}
+    public enum State {Start, Remove, FirstDeal, SecondDeal, Flip1, Flip2, Reveal, Select, PostGame, MovingText, Counter}
 
     /// <summary>
     /// This is the main type for your game.
@@ -31,6 +31,7 @@ namespace Duck_Visual
         Texture2D[] cardTextures;
         Texture2D btn;
         Texture2D head;
+        Texture2D blob;
 
         List<int> allNums;
 
@@ -38,18 +39,24 @@ namespace Duck_Visual
         Button btnDeal;
         Button btnSaldo;
 
+        decimal targetSaldo;
+        decimal[] bets = new decimal[] { 1, 1, 2, 3, 4, 5, 20, 40, 80, 100 };
         int touchHandle;
         int counter;
         float VELOCITY = 0.7f;
         decimal insats = 0.5m;
         decimal saldo = 100;
         Vector2 zv;
+        Vector2 blobPos;
         List<Card> cards;
         List<Button> btns;
         List<Text> texts;
         SpriteFont sFont;
         State gameState;
         Random rand;
+
+        Text movingText;
+        Vector2 movingTextTarget = new Vector2(865, 850);
 
         int[] cardPosX = new int[] { 135, 465, 795, 1125, 1455 };
 
@@ -58,7 +65,8 @@ namespace Duck_Visual
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             graphics.PreferredBackBufferWidth = 1920;
-            graphics.PreferredBackBufferHeight = 980;
+            graphics.PreferredBackBufferHeight = 1080;
+            graphics.IsFullScreen = true;
         }
 
         protected override void Initialize()
@@ -66,6 +74,7 @@ namespace Duck_Visual
             cards = new List<Card>();
 
             zv = new Vector2(0, 0);
+            blobPos = new Vector2(17+1 * 190, 78);
             IsMouseVisible = true;
             gameState = State.Start;
             touchHandle = 0;
@@ -87,7 +96,8 @@ namespace Duck_Visual
                 Content.Load<Texture2D>("cards_clubs"),
                 Content.Load<Texture2D>("card_jokers")
             };
-            
+
+            blob = Content.Load<Texture2D>("blob");
             btn = Content.Load<Texture2D>("btn");
             head = Content.Load<Texture2D>("head");
             sFont = Content.Load<SpriteFont>("font");
@@ -97,6 +107,7 @@ namespace Duck_Visual
             btnBet = new Button(insats.ToString() + " $", new Vector2(1100, 800), true, sFont);
             btnSaldo = new Button(saldo.ToString()+" $", new Vector2(800, 800), false, sFont);
             SetBets();
+            movingText = new Text(new Vector2(-300, 0), "", sFont);
 
             btns.Add(btnDeal);
             btns.Add(btnBet);
@@ -121,6 +132,34 @@ namespace Duck_Visual
                     animating = true;
                 }
                 if (c.Position.X > 1920) cards.Remove(c);
+            }
+            if (gameState == State.MovingText)
+            {
+                Vector2 targetV = new Vector2(movingTextTarget.X - movingText.Position.X, movingTextTarget.Y - movingText.Position.Y);
+
+                if (targetV.Length() < 15)
+                {
+                    movingText.Position = new Vector2(-300, 0);
+                    gameState = State.Counter;
+                    VELOCITY = 0.7f;
+                }
+                else
+                {
+                    double movement = (float)gameTime.ElapsedGameTime.TotalMilliseconds * VELOCITY + targetV.Length() * 0.05f;
+                    targetV = Vector2.Normalize(targetV);
+                    movingText.Position = new Vector2(movingText.Position.X + (float)(targetV.X * movement), movingText.Position.Y + (float)(targetV.Y * movement));
+                    animating = true;
+                }
+            }
+            else if (gameState == State.Counter)
+            {
+                if (saldo < targetSaldo)
+                {
+                    saldo += 0.5m;
+                    animating = true;
+                    btnSaldo.text = saldo + " $";
+                }
+                else gameState = State.Start;
             }
 
             if (animating && (gameState != State.Start && gameState != State.Select))
@@ -183,7 +222,6 @@ namespace Duck_Visual
             else if (gameState == State.PostGame)
             {
                 WinCheck();
-                gameState = State.Start;
             }
             base.Update(gameTime);
         }
@@ -206,7 +244,10 @@ namespace Duck_Visual
                 spriteBatch.DrawString(sFont, b.text, b.TextPosition, Color.Black);
             }
 
+
             spriteBatch.Draw(head, zv, Color.White);
+            spriteBatch.Draw(blob, blobPos, Color.White);
+            spriteBatch.DrawString(sFont, movingText.Message, movingText.Position, Color.Black);
             foreach (Text t in texts)
             {
                 spriteBatch.DrawString(sFont, t.Message, t.Position, Color.Black);
@@ -221,8 +262,11 @@ namespace Duck_Visual
         {
             if (btnDeal.Intersect(pos))
             {
-                if (gameState == State.Start && saldo > insats)
+                if (gameState == State.Start && saldo >= insats)
                 {
+                    saldo -= insats;
+                    btnSaldo.setText(saldo + " $", sFont);
+                    blobPos = new Vector2(-200, blobPos.Y);
                     foreach (Card c in cards)
                     {
                         c.remove();
@@ -261,15 +305,11 @@ namespace Duck_Visual
             cards = new List<Card>();
             allNums = new List<int>();
 
-            //for (int i = 0; i < 55; i++)
-            //{
-            //    allNums.Add(i);
-            //}
-            allNums.Add(52);
-            allNums.Add(1);
-            allNums.Add(14);
-            allNums.Add(41);
-            allNums.Add(2);
+            for (int i = 0; i < 55; i++)
+            {
+                allNums.Add(i);
+            }
+
 
 
             for (int j = 0; j < 5; j++)
@@ -349,7 +389,6 @@ namespace Duck_Visual
 
         private void SetBets()
         {
-            decimal[] bets = new decimal[] { 1, 1, 2, 3, 4, 5, 20, 40, 80, 100 };
             texts = new List<Text>();
             for (int i = 0; i < bets.Length; i++)
             {
@@ -467,47 +506,32 @@ namespace Duck_Visual
 
             bool straight = gap <= jokers;
 
-            if (penta)
+            int winCounter = -1;
+            if (penta) winCounter = 9;
+            else if (flush && royal && straight) winCounter = 8;
+            else if (flush && straight) winCounter = 7;
+            else if (quad) winCounter = 6;
+            else if (fullHouse) winCounter = 5;
+            else if (flush) winCounter = 4;
+            else if (straight) winCounter = 3;
+            else if (tri) winCounter = 2;
+            else if (twoPair) winCounter = 1;
+            else if (kingAcesPair) winCounter = 0;
+
+            if (winCounter != -1)
             {
-                Console.WriteLine("Femtal");
+                blobPos = new Vector2(17 + 190 * winCounter, blobPos.Y);
+                movingText.Message = bets[winCounter] * insats + " $";
+                movingText.Position = new Vector2(17 + 190 * winCounter, blobPos.Y + 10);
+                targetSaldo = saldo + bets[winCounter] * insats;
+                gameState = State.MovingText;
+                VELOCITY = 0.1f;
             }
-            else if (flush && royal && straight)
+            else
             {
-                Console.WriteLine("Royal Flush");
+                targetSaldo = saldo;
+                gameState = State.Start;
             }
-            else if (flush && straight)
-            {
-                Console.WriteLine("Straight Flush");
-            }
-            else if (quad)
-            {
-                Console.WriteLine("Fyrtal");
-            }
-            else if (fullHouse)
-            {
-                Console.WriteLine("Kåk");
-            }
-            else if (flush)
-            {
-                Console.WriteLine("Flush");
-            }
-            else if (straight)
-            {
-                Console.WriteLine("Stege");
-            }
-            else if (tri)
-            {
-                Console.WriteLine("Triss");
-            }
-            else if (twoPair)
-            {
-                Console.WriteLine("Två Par");
-            }
-            else if (kingAcesPair)
-            {
-                Console.WriteLine("Ett Par kung eller bättre");
-            }
-            else Console.WriteLine("ingen vinst");
         }
     }
 }

@@ -12,6 +12,7 @@ namespace Duck_Visual
     internal class Text
     {
         public Vector2 Position { get; set; }
+
         public string Message { get; set; }
         public Text(Vector2 position, string message, SpriteFont sf) 
         {

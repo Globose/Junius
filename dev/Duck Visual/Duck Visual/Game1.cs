@@ -40,6 +40,7 @@ namespace Duck_Visual
         Button btnSaldo;
 
         decimal targetSaldo;
+        bool mouseDown = false;
         decimal[] bets = new decimal[] { 1, 1, 2, 3, 4, 5, 20, 40, 80, 100 };
         int touchHandle;
         int counter;
@@ -168,8 +169,9 @@ namespace Duck_Visual
             }
 
             TouchCollection tc = TouchPanel.GetState();
-            
-            if (tc.Count > 0)
+            MouseState ms = Mouse.GetState();
+
+            if (tc.Count > 0 && !mouseDown)
             {
                 foreach (TouchLocation tl in tc)
                 {
@@ -180,11 +182,17 @@ namespace Duck_Visual
                     }
                 }
             }
+            else if (ms.LeftButton == ButtonState.Pressed && !mouseDown)
+            {
+                mouseDown = true;
+                Touch(new Vector2(ms.X, ms.Y));
+            }
             else
             {
                 btnBet.pressed = false;
                 btnDeal.pressed = false;
             }
+            if (ms.LeftButton == ButtonState.Released) mouseDown = false;
 
 
             if (gameState == State.Remove && cards.Count == 0)

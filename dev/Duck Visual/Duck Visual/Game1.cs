@@ -46,7 +46,7 @@ namespace Duck_Visual
         int counter;
         float VELOCITY = 0.7f;
         decimal insats = 0.5m;
-        decimal saldo = 100;
+        decimal saldo = 5;
         Vector2 zv;
         Vector2 blobPos;
         List<Card> cards;
@@ -234,7 +234,6 @@ namespace Duck_Visual
             base.Update(gameTime);
         }
 
-
         protected override void Draw(GameTime gameTime)
         {
             spriteBatch.Begin();
@@ -317,7 +316,6 @@ namespace Duck_Visual
             {
                 allNums.Add(i);
             }
-
 
 
             for (int j = 0; j < 5; j++)
